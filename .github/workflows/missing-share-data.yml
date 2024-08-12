@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: export RESULT="hello"
-      - run: export RESULT="${RESULT}"
-      
+      - run: echo "${RESULT}"
